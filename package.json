@@ -1,0 +1,14 @@
+{
+  "name": "async-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evandro Leopoldino Gonçalves",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  }
+}
