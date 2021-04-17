@@ -2,8 +2,8 @@ function coroutine(fn) {
   const instance = fn();
   instance.next();
 
-  return (value) => {
-    instance.next(value);
+  return () => {
+    instance.next();
   };
 }
 
